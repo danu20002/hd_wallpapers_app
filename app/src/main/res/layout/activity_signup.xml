@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+android:background="@drawable/hdbackground"
+    tools:context=".signup_activity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SIGN UP"
+    android:textAlignment="center"
+    android:textStyle="bold"
+    android:layout_marginTop="50dp"
+    android:textSize="40sp"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:id="@+id/signupemail"
+        android:hint="Email"
+        android:drawableEnd="@drawable/baseline_email_24"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:screenReaderFocusable="true"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="password"
+        android:textSize="20sp"
+        android:drawableEnd="@drawable/baseline_lock_24"
+        android:textStyle="bold"
+        android:id="@+id/signuppassword"
+        android:inputType="textPassword"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/cardview_dark_background"
+        android:screenReaderFocusable="true"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="100dp"
+        android:text="SIGN UP"
+        android:background="#8BC34A"
+        android:id="@+id/signupbtn"/>
+
+<ProgressBar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:visibility="gone"
+    />
+
+
+
+
+</RelativeLayout>

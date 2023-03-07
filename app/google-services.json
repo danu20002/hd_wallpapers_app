@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1009715757315",
+    "project_id": "firing-e89ae",
+    "storage_bucket": "firing-e89ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009715757315:android:e203a6c69ff3926f59a936",
+        "android_client_info": {
+          "package_name": "com.example.firing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009715757315-ghhfr02rbnrnl561fa9s0kfnb2fq3osq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNOvQ43jI8CbAp5x3QwRQlumSXtyQWLcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009715757315-ghhfr02rbnrnl561fa9s0kfnb2fq3osq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
